@@ -9,3 +9,10 @@ docker run --rm --name armitage --hostname="kali_armitage" -t -i -e DISPLAY=$DIS
 ```
 
 Or clone, or download, the git repo and execute `./run-armitage.sh` command.
+
+### Named volumes list
+- `mg_metasploit_postgresql_data -> /var/lib/postgresql`
+- `mg_metasploit_framework_dir -> /usr/share/metasploit-framework`
+- `mg_root_msf4_dir -> /root/.msf4`
+- `mg_root_armitage_dir -> /root/.armitage`
+- `mg_data_dir -> /data`
